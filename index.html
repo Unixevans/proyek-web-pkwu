@@ -7,7 +7,7 @@
     <link rel="icon" href="img/logo.jpg" type="image/x-icon">
     <!-- Ini link resources untuk icon Font-Awesome bukan framework layout -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>UNIXEVANS</title>
 </head>
 <body>
@@ -37,7 +37,7 @@
     <main>
         <div class="content">
             <section class="home">
-                <article>
+                <article data-aos="fade-right" data-aos-duration="600">
                     <h1 class="welcome">
                         Hello I'm
                         <span class="nama">EVAN KAMALLUDIN</span>
@@ -52,12 +52,12 @@
                     </p>
                     <a href="#" class="hire-me">HIRE ME</a>
                 </article>
-                <aside>
+                <aside data-aos="fade-left" data-aos-duration="600">
                     <img src="img/foto2.png" alt="" class="profile-img">
                 </aside>
             </section>
             <section class="about-me" id="about">
-                <article>
+                <article  data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                     <h3 class="about">ABOUT ME</h3>
                     <p class="biodata">
                         Nama saya <span class="highlight">Evan Kamalludin</span> biasa dipanggil dengan&nbsp;
@@ -103,7 +103,7 @@
                 <article>
                     <h3 class="skills-ttl">SKILLS</h3>
                     <div class="skill-box">
-                        <div class="skill-progress">
+                        <div class="skill-progress" data-aos="fade-right" data-aos-duration="600">
                             <div class="inf-box">ALL ROLE SKILLS</div>
                             <div class="container-box">
                                 <div class="box-1" id="box-1">
@@ -153,7 +153,7 @@
                             </div>
                         </div>
                         <div class="details">
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="500">
                                 <span class="special-icon">
                                     <i class="fa-brands fa-html5" style="color: #f46208;"></i>
                                     <i class="fa-brands fa-css3-alt" style="color: #f46208;"></i>                                <p class="special-content">
@@ -161,7 +161,7 @@
                                     <span class="special-text">HTML dan CSS, kombo kehebatan yang membentuk penampilan dan fungsionalitas situs web modern saat ini.</span>
                                 </p>
                             </div>
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="700">
                                 <span class="special-icon">
                                     <i class="fa-brands fa-bootstrap" style="color: #f46208;"></i>                                </span>
                                 <p class="special-content">
@@ -169,7 +169,7 @@
                                     <span class="special-text">Bootstrap adalah kerangka kerja front-end yang mempermudah pengembangan situs web responsif dan menarik secara visual.</span>
                                 </p>
                             </div>
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="900">
                                 <span class="special-icon">
                                     <img src="img/tailwindcss.png" alt="" class="icons">
                                 </span>
@@ -178,7 +178,7 @@
                                     <span class="special-text">TailwindCSS adalah alat kreatif bagi pengembang web, memungkinkan pembuatan tampilan yang elegan dengan mudah.</span>
                                 </p>
                             </div>
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="1100">
                                 <span class="special-icon">
                                     <i class="fa-brands fa-square-js" style="color: #f46208;"></i>                                </span>
                                 <p class="special-content">
@@ -186,7 +186,7 @@
                                     <span class="special-text">JavaScript, bahasa pemrograman yang kuat, digunakan untuk mengembangkan interaksi dinamis di situs web dan aplikasi.</span>
                                 </p>
                             </div>
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="1300">
                                 <span class="special-icon">
                                     <i class="fa-brands fa-php" style="color: #f46208;"></i>                                </span>
                                 <p class="special-content">
@@ -194,7 +194,7 @@
                                     <span class="special-text">Kombinasi PHP dan MySQL menjadi andalan dalam pengembangan aplikasi web yang interaktif dan berbasis database.</span>
                                 </p>
                             </div>
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="1500">
                                 <span class="special-icon">
                                     <i class="fa-brands fa-laravel" style="color: #f46208;"></i>                                </span>
                                 <p class="special-content">
@@ -202,7 +202,7 @@
                                     <span class="special-text">Laravel adalah kerangka kerja PHP yang elegan dan kuat, memudahkan pengembangan aplikasi web yang kompleks dan dinamis.</span>
                                 </p>
                             </div>
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="1700">
                                 <span class="special-icon">
                                     <img src="img/codeigniter.png" alt="" class="icons">
                                 </span>
@@ -211,7 +211,7 @@
                                     <span class="special-text">CodeIgniter adalah kerangka kerja PHP ringan, memfasilitasi pengembangan aplikasi web cepat dengan desain yang efisien.</span>
                                 </p>
                             </div>
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="1900">
                                 <span class="special-icon">
                                     <img src="img/router.png" alt="" class="icons">
                                 </span>
@@ -220,7 +220,7 @@
                                     <span class="special-text">MTCNA MikroTik membantu profesional IT menguasai konfigurasi perangkat dan jaringan MikroTik untuk kinerja maksimal.</span>
                                 </p>
                             </div>
-                            <div class="box-skills">
+                            <div class="box-skills" data-aos="fade-left" data-aos-duration="2100">
                                 <span class="special-icon">
                                     <i class="fa-brands fa-debian" style="color: #f46208;"></i>
                                 </span>
@@ -235,31 +235,31 @@
             </section>
             <section class="portofolio" id="portofolio">
                 <article>
-                    <h3 class="title">PORTOFOLIO</h3>
-                    <p class="descript">Berikut projek yang telah saya kerjakan</p>
+                    <h3 class="title" data-aos="fade-up" data-aos-duration="900">PORTOFOLIO</h3>
+                    <p class="descript" data-aos="fade-up" data-aos-duration="1000">Berikut projek yang telah saya kerjakan</p>
                     <div class="wrapper">
-                        <div class="kartu">
+                        <div class="kartu" data-aos="fade-up" data-aos-duration="1200">
                             <div class="img-kartu">
                                 <img src="img/simonel.png" alt="gambar dashboard simonel website" class="tmb">
                             </div>
                             <h4 class="judul-item">Website IoT Sistem Monitoring Panel</h4>
                             <p class="desc-item">Project Website IoT Sistem Monitoring Panel PLTS On Grid System dengan menggunakan PHP MySQL.</p>
                         </div>
-                        <div class="kartu">
+                        <div class="kartu" data-aos="fade-up" data-aos-duration="1200">
                             <div class="img-kartu">
                                 <img src="img/apidataets.png" alt="gambar dashboard simonel website" class="tmb">
                             </div>
                             <h4 class="judul-item">REST Server API Dataets POMSI</h4>
                             <p class="desc-item">Project Rest Server API untuk layanan data race balap merpati MyETS POMSI dengan Laravel 10.</p>
                         </div>
-                        <div class="kartu">
+                        <div class="kartu" data-aos="fade-up" data-aos-duration="1500">
                             <div class="img-kartu">
                                 <img src="img/apidatacontrol.png" alt="gambar dashboard simonel website" class="tmb">
                             </div>
                             <h4 class="judul-item">REST Server API Data Controller POMSI</h4>
                             <p class="desc-item">Project Rest Server API untuk layanan data controller sistem device balap merpati MyETS POMSI dengan Laravel 10.</p>
                         </div>
-                        <div class="kartu">
+                        <div class="kartu" data-aos="fade-up" data-aos-duration="1500">
                             <div class="img-kartu">
                                 <img src="img/itsociety.png" alt="gambar dashboard simonel website" class="tmb">
                             </div>
@@ -271,9 +271,9 @@
             </section>
             <section class="contact" id="contact">
                 <article>
-                    <h3 class="contact-ttl">HUBUNGI SAYA</h3>
-                    <p class="des-contact">Apabila ada kepentingan atau terdapat masalah, bisa langsung hubungi saya melalui formulir di bawah ini! </p>
-                    <div class="box-contact">
+                    <h3 class="contact-ttl" data-aos="fade-up" data-aos-duration="900">HUBUNGI SAYA</h3>
+                    <p class="des-contact" data-aos="fade-up" data-aos-duration="1000">Apabila ada kepentingan atau terdapat masalah, bisa langsung hubungi saya melalui formulir di bawah ini! </p>
+                    <div class="box-contact" data-aos="fade-up" data-aos-duration="1300">
                         <label for="name" class="label">Name</label>
                         <input type="text" class="int" id="name">
 
@@ -322,5 +322,11 @@
     <a href="#" class="to-top" id="to-top"><i class="fa-solid fa-chevron-up"></i></a>
     <!-- Link Script JS -->
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
 </body>
 </html>
