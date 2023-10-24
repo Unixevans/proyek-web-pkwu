@@ -4,7 +4,7 @@
 
 ## VIEW WEB
 Berikut link tampilan progress :
-https://unixevans.github.io/latest-project/
+https://unixevans.github.io/proyek-web-pkwu/
 
 ## VIEW LAYOUT DESIGN
 
