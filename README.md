@@ -1,5 +1,5 @@
 # LAPORAN PROGRESS PENGERJAAN WEB PORTOFOLIO
-- Sudah berjalan 98%
+- Sudah berjalan 100%
 - Tinggal Finishing dan perapian bug kecil-kecil
 
 ## VIEW WEB
